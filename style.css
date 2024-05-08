@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section1{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+display: flex;
+    width: 85%;
+    height: 500px;
+    background-color: aqua;
+}
+
+.text{
+    background-color:rgb(15,23,43);
+    width: 50%;
+    height: 100%;
+}
+.photo{
+    width: 50%;
+    height: 100%;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+.xett{
+    width: 40px;
+    height: 2px;
+    background-color:rgb(242,154,23);
+    margin-top: 65px;
+    border-radius: 20px;
+    margin-left: -40px;
+
+}
+.p1{
+color:rgb(242,154,23);
+padding: 55px;
+font-style: italic;
+font-size: 19px;
+}
+.hh1{
+
+color: white;
+font-size: 35px;
+}
+
+
+.inp1{
+    width: 250px;
+    height: 55px;
+}
+.inp2{
+    width: 250px;
+    height: 55px;
+}
+
+.dxet{
+    width: 100%;
+    height: 20px;
+    display: flex;
+}
+.hdiv{
+    padding-top:70px;
+    padding-left: 50px;
+    width: 100%;
+    height: 125px;
+}
+.inpdiv{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+gap: 20px;
+}
+.inpbig{
+    width: 520px;
+    height: 110px;
+    margin-left: 55px;
+    margin-top:15px;
+}
+.button1{
+    width: 520px;
+    height: 55px;
+    margin-left: 55px;
+    margin-top: 10px;
+    background-color: rgb(254,161,22);
+    color: white;
+    font-size: 15px;
+} 
+input :hover{
+    border: none;
+}
+
+
+.section2{
+    width: 100%;
+    height: 100vh;
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(50,204,198);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+ul{
+    display: flex;
+    list-style:none;
+    gap: 20px;
+    color: white;
+}
+.navbar h1{
+    color: white;
+    font-size: 25px;
+}
+.navbar button{
+    border: none;
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: rgb(69,113,205);
+    color: white;
+}
+.logo{
+ width: 25px;
+ height: 25px;
+}
+.logodiv{
+    display: flex;
+    gap: 10px;
+}
+.pho{
+    width: 50%;
+    height: 100%;
+    padding-top: 50px ;
+
+}
+.txt{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 120px;
+    padding-left: 50px;
+}
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    height: 90%;
+    margin-left: 100px;
+}
+.color1{
+    color: rgb(54,205,198);
+}
+.color2{
+    color: rgb(8,142,195);
+}
+.plus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    font-size: 25px;
+   padding-bottom:30px;
+}
+.plus p{
+    font-size: 20px;
+}
+.btn2{
+    width: 170px;
+    height: 40px;
+    border-radius: 20px;
+    background-color:  rgb(54,205,198) ;
+    color: white;
+    border: none;
+    font-size: 15px;
+}
+.text2{
+    font-size: 30px;
+    font-family: "open-sans",sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+}
+.textt{
+    font-size: 17px;
+}
+.section3{
+    width: 100%;
+    height: 100vh;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+}
+.container3{
+    width: 900px;
+    height: 550px;
+    background-color: aqua;
+display: flex;
+}
+.textpisik{
+    width: 30%;
+    height: 100%;
+    background-color: rgb(41,47,51);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    color: rgb(229,229,229) ;
+    padding-left: 20px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.photopisik{
+width: 70%;
+height: 100%;
+background-color: rgb(229,229,229);
+}
+
+.btn3{
+    background-color: transparent;
+    width: 150px;
+    height: 40px;
+    color:  rgb(229,229,229);
+    border: 1px solid white;
+
+}
+.cat{
+    font-size: 15px;
+}
+.cat1{
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+.cat2{
+    width: 100%;
+    height: 50%;
+}
+.cat1 div{
+    width: 50%;
+    height: 100%;
+}
+.ph1{
+    display: flex;
+    flex-wrap: wrap;
+padding: 50px;
+padding-top: 70px;
+}
